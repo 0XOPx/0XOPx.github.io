@@ -3,8 +3,8 @@
     {
       "name": "Oxikara",
       "status": "Released",
-      "release_date": "",
-      "description": "",
+      "release_date": "2026",
+      "description": "A C++ MIDI visualizer with threaded streaming parse, non-overlapping note loading, and real-time sound output.",
       "links": {
         "GitHub": "https://github.com/OXOPBlackMIDI/Oxikara",
         "Releases": "https://github.com/OXOPBlackMIDI/Oxikara/releases"
