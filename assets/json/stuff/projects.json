@@ -2,10 +2,9 @@
   "projects": [
     {
       "name": "Oxikara",
-      "status": "",
+      "status": "Released",
       "release_date": "",
       "description": "",
-      "status": "Released",
       "links": {
         "GitHub": "https://github.com/OXOPBlackMIDI/Oxikara",
         "Releases": "https://github.com/OXOPBlackMIDI/Oxikara/releases"
