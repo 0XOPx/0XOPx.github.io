@@ -50,6 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
             allowfullscreen>
           </iframe>
 
+          <video controls height="220" width="390">
+            <source src="/assets/cats/cocaine.mp4" type="video/mp4">
+        </video>
+
           <button id="ytbtn">open short</button>
 
           <canvas id="c"></canvas>
