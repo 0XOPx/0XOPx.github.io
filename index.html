@@ -18,6 +18,7 @@
     <meta property="og:url" content="https://0xopx.github.io/">
     <script src="/js/footer/year/a.js" defer></script>
     <script src="/js/time.js" defer></script>
+    <script src="/js/meow.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -27,15 +28,18 @@
         <h3> <a href="https://github.com/0XOPx" target="_blank" rel="noopener noreferrer"><i class="icon fa-brands fa-github"></i> Github</a></h3>
         <h1>More</h1>
         <hr width="100%" size="2" color="grey">
-        <li><a href="/stuff">My stuff.</a></li>
-        <li><a href="?e=true">E?</a></li>
-        <li><a href="?nocss=true">No CSS?</a></li>
-        <li><a href="?e=true&nocss=true">All?</a></li>
+        <!-- Fixing the <li> not in ul tags - a huge issue.-->
+        <ul>
+            <li><a href="/stuff">My stuff.</a></li>
+            <li><a href="?e=true">E?</a></li>
+            <li><a href="?nocss=true">No CSS?</a></li>
+            <li><a href="?e=true&nocss=true">All?</a></li>
+        </ul>
         <div class="time-display">
             <p>My current time:</p>
             <p><span id="time-uk"></span>/<span id="time-us"></span></p>
         </div>
-        <small>I like cats.</small>
+        <small id="meow">I like cats.</small>
     </div>
     <footer>
         <p>Created by <a href="https://github.com/0XOPx" class="footer-name">OXOP</a></p>
