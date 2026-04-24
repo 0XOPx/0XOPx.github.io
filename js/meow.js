@@ -50,9 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
             allowfullscreen>
           </iframe>
 
-          <video controls height="220" width="390">
+          <video controls width="390" height="220" preload="auto" style="position:relative;z-index:3;">
             <source src="/assets/cats/cocaine.mp4" type="video/mp4">
-        </video>
+            Your browser does not support the video tag.
+          </video>
 
           <button id="ytbtn">open short</button>
 
