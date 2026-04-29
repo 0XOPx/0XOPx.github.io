@@ -1,4 +1,10 @@
 User-agent: *
 Disallow: /meow/
 Disallow: /meow
+Disallow: /js/
+Disallow: /js
+Disallow: /css/
+Disallow: /css
+Disallow: /assets/
+Disallow: /assets
 Allow: /
