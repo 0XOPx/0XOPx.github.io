@@ -2,4 +2,4 @@ remote_theme: pages-themes/minimal
 plugins:
   - jekyll-sitemap
 
-url: "https://0xopx.github.io"
+url: "https://oxop.duckdns.org"
