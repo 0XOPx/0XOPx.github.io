@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OXOP - Home</title>
+    <title>OXOP - FAQ</title>
     
     <!-- <link rel="manifest" href="/somestuff/manifest.json"> theres a issue in this spooky.-->
     <link rel="manifest" href="manifest.json"> 
@@ -27,27 +27,24 @@
     <script src="/js/footer/year/a.js" defer></script>
     <script src="/js/time.js" defer></script>
     <script src="/js/meow.js" defer></script>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <main>
         <div class="container">
-            <h1>Hi - I'm OXOP. I'm a programmer, a blacker (Black MIDI Maker), <small>I don't know what else to say about me.</small></h1>
-            <h1>Socials</h1>
-            <hr width="100%" size="2" color="grey">
-            <h3> <a href="https://github.com/0XOPx" target="_blank" rel="noopener noreferrer"><i class="icon fa-brands fa-github"></i> Github</a></h3>
-            <h1>More</h1>
-            <hr width="100%" size="2" color="grey">
+            <h1>OXOP's FAQ</h1>
             <ul>
-                <li><a href="/stuff">My stuff.</a></li>
-                <li><a href="?e=true">E?</a></li>
-                <li><a href="?nocss=true">No CSS?</a></li>
-                <li><a href="?e=true&nocss=true">All?</a></li>
-                <li><a href="/faq">FAQ</a></li>
+                <li>1. Why is the icon and links red?</li>
+                <li>Because it's my favorite/favourite color/colour.</li>
+                <li>2. Why is it your favorite color?</li>
+                <li>I don't really know 😂</li>
             </ul>
-            <div class="time-display">
-                <p>My current time:</p>
-                <p><span id="time-uk"></span>/<span id="time-us"></span></p>
-            </div>
+            <a href="/">Back to home</a>
             <small id="meow">I <s>like</s> LOVE cats.</small>
         </div>
     </main>
@@ -59,16 +56,5 @@
     <noscript>
         <h1>Please enable JavaScript. This site heavily uses JavaScript.</h1>
     </noscript>
-
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                // navigator.serviceWorker.register('/js/app/sw.js') another issue. spooky.
-                navigator.serviceWorker.register('/sw.js')
-                .then(reg => console.log('sw registered xd'))
-                .catch(err => console.error('sw failed f*ck :(', err));
-            });
-        }
-    </script>
 </body>
 </html>
