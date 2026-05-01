@@ -28,6 +28,8 @@ const signatureStyle = `
     font-family: sans-serif;
 `;
 
-console.log("%c" + warningTitle, titleStyle);
-console.log("%c" + warningBody, bodyStyle);
-console.log("%c- OXOP", signatureStyle);
+function printconsolewarn() {
+    console.log("%c" + warningTitle, titleStyle);
+    console.log("%c" + warningBody, bodyStyle);
+    console.log("%c- OXOP", signatureStyle);
+}

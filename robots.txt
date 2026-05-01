@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /meow/
 Disallow: /meow
 Allow: /
-Sitemap: https://oxop.duckdns.org/sitemap.xml
+Sitemap: https://oxop.pages.dev/sitemap.xml
