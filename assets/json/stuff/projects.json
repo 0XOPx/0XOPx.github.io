@@ -9,6 +9,16 @@
         "GitHub": "https://github.com/OXOPBlackMIDI/Oxikara",
         "Releases": "https://github.com/OXOPBlackMIDI/Oxikara/releases"
       }
+    },
+    {
+      "name": "Cookie Clicker",
+      "status": "Released",
+      "release_date": "2026",
+      "description": "My Cookie Clicker game",
+      "links": {
+        "Source Code": "https://github.com/OXOPMakesGames/CookieClicker/tree/game",
+        "Site": "https://oxop.pages.dev/games/CookieClicker"
+      }
     }
   ]
 }
