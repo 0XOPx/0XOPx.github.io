@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /meow/
 Disallow: /meow
+Disallow: /secret
+Disallow: /secret/
 Allow: /
 Sitemap: https://oxop.pages.dev/sitemap.xml
