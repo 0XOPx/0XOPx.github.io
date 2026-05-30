@@ -19,6 +19,16 @@
         "Source Code": "https://github.com/OXOPMakesGames/CookieClicker/tree/game",
         "Site": "https://oxop.pages.dev/games/CookieClicker"
       }
+    },
+    {
+      "name": "BuildCores for Windows",
+      "status": "Released",
+      "release_date": "2026",
+      "description": "Build Cores but as a Windows NET Framework 4.8 app.",
+      "links": {
+        "GitHub": "https://github.com/0XOPx/BuildCoresforWindows",
+        "Releases": "https://github.com/0XOPx/BuildCoresforWindows/releases/latest"
+      }
     }
   ]
 }
