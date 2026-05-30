@@ -12,7 +12,7 @@ async function loadProjects() {
             const linkEntries = Object.entries(project.links);
 
             linkEntries.forEach(([key, url]) => {
-                linkItems += `<li><a href="${url}" class="btn-small">${key.toUpperCase()}</a></li>`;
+                linkItems += `<li><a href="${url}" target="_blank" rel="noopener noreferrer" class="btn-small">${key.toUpperCase()}</a></li>`;
             });
 
             projectDiv.innerHTML = `
